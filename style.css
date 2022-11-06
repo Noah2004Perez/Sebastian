@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/assets/Gotham.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img.One{
+    margin: 320px 0px 0px 490px;
+    position: absolute;
+    width: 200px;
+    filter: invert(100%) sepia(44%) saturate(218%) hue-rotate(42deg) brightness(90%) contrast(90%);
+}
+
+img.Two{
+    filter: invert(100%) sepia(44%) saturate(218%) hue-rotate(42deg) brightness(90%) contrast(90%);
+    margin: 50px 400px 0px 0px;
+    width: 200px;
+    position: absolute;
+}
+
+main{
+    margin: 50px auto;
+    width: fit-content;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #8A101E;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+div.name-apellido{
+    display:flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+div.name-apellido > input{
+    height: 35px;
+    border-radius: 8px;
+    padding-left: 10px;
+    color: #8A101E;
+    margin-bottom: 1rem;
+}   
+
+div.name-apellido > input::placeholder{
+    color: #8A101E;
+    font-weight: 500;
+}
+
+div.cedula > select{
+    font-size: 15px;
+    height: 35px;
+    border-radius: 8px;
+    color: #8A101E;
+    margin-right: 10px;
+}
+
+div.cedula > input{
+    height: 35px;
+    width: 85.7%;
+    border-radius: 8px;
+    padding-left: 10px;
+    color: #8A101E;
+    margin-bottom: 1rem;
+}
+
+div.cedula > input::placeholder{
+    color: #8A101E;
+    font-weight: 500;
+}
+
+div.tlf > select{
+    font-size: 15px;
+    height: 35px;
+    border-radius: 8px;
+    color: #8A101E;
+    margin-right: 10px;
+}
+
+div.tlf > input{
+    height: 35px;
+    width: 81.5%;
+    border-radius: 8px;
+    padding-left: 10px;
+    color: #8A101E;
+    margin-bottom: 1rem;
+}
+
+div.tlf > input::placeholder{
+    color: #8A101E;
+    font-weight: 500;
+}
+
+div.direccion > textarea{
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #8A101E;
+    margin-bottom: 1rem;
+}
+
+div.textarea > textarea::placeholder{
+    color: #8A101E;
+    font-weight: 500;
+}
+
+div.correo > input{
+    height: 35px;
+    width: 100%;
+    border-radius: 8px;
+    padding-left: 10px;
+    color: #8A101E;
+    margin-bottom: 1rem;
+}
+
+div.direccion > input::placeholder{
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #8A101E;
+    margin-bottom: 1rem;
+}
+
+div.buttom{
+    display:flex;
+    flex-direction: row;
+}
+
+div.button > input[type="reset"],
+div.button > input[type="submit"] {
+    color: #1D9AF2;
+    background-color: #292D3E;
+    border: 1px solid #8A101E;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+    margin: 0px 10px 0px 8px
+}
+
+div.button > input[type="reset"]:hover,
+div.button > input[type="submit"]:hover {
+    transform: scale(0.8); 
+}
