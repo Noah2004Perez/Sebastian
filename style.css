@@ -41,7 +41,7 @@ main{
 h1{
     text-align: center;
     margin-bottom: 1rem;
-    color: #8A101E;
+    color: #0647D4;
 }
 
 form{
@@ -169,7 +169,7 @@ div.button > input[type="submit"]:hover {
     }
 
     img.One{
-        margin: 250px 0px 0px 200px;
+        margin: 260px 0px 0px 200px;
         width: 100px;
     }
 
