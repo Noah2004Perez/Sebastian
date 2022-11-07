@@ -41,7 +41,7 @@ main{
 h1{
     text-align: center;
     margin-bottom: 1rem;
-    color: #0647D4;
+    color: #009FC8;
 }
 
 form{
@@ -140,7 +140,7 @@ div.button > input[type="reset"],
 div.button > input[type="submit"] {
     color: #1D9AF2;
     background-color: #292D3E;
-    border: 1px solid #8A101E;
+    border: 1px solid #1D9AF2;
     border-radius: 4px;
     padding: 0 15px;
     cursor: pointer;
