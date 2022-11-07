@@ -60,12 +60,10 @@ div.name-apellido > input{
     height: 35px;
     border-radius: 8px;
     padding-left: 10px;
-    color: #8A101E;
     margin-bottom: 1rem;
 }   
 
 div.name-apellido > input::placeholder{
-    color: #8A101E;
     font-weight: 500;
 }
 
@@ -73,7 +71,6 @@ div.cedula > select{
     font-size: 15px;
     height: 35px;
     border-radius: 8px;
-    color: #8A101E;
     margin-right: 10px;
 }
 
@@ -82,12 +79,10 @@ div.cedula > input{
     width: 85.7%;
     border-radius: 8px;
     padding-left: 10px;
-    color: #8A101E;
     margin-bottom: 1rem;
 }
 
 div.cedula > input::placeholder{
-    color: #8A101E;
     font-weight: 500;
 }
 
@@ -95,7 +90,6 @@ div.tlf > select{
     font-size: 15px;
     height: 35px;
     border-radius: 8px;
-    color: #8A101E;
     margin-right: 10px;
 }
 
@@ -104,12 +98,10 @@ div.tlf > input{
     width: 81.5%;
     border-radius: 8px;
     padding-left: 10px;
-    color: #8A101E;
     margin-bottom: 1rem;
 }
 
 div.tlf > input::placeholder{
-    color: #8A101E;
     font-weight: 500;
 }
 
@@ -117,12 +109,10 @@ div.direccion > textarea{
     border-radius: 8px;
     padding-top: 10px;
     padding-left: 10px;
-    color: #8A101E;
     margin-bottom: 1rem;
 }
 
 div.textarea > textarea::placeholder{
-    color: #8A101E;
     font-weight: 500;
 }
 
@@ -131,7 +121,6 @@ div.correo > input{
     width: 100%;
     border-radius: 8px;
     padding-left: 10px;
-    color: #8A101E;
     margin-bottom: 1rem;
 }
 
@@ -139,7 +128,6 @@ div.direccion > input::placeholder{
     border-radius: 8px;
     padding-top: 10px;
     padding-left: 10px;
-    color: #8A101E;
     margin-bottom: 1rem;
 }
 
@@ -166,4 +154,49 @@ div.button > input[type="submit"] {
 div.button > input[type="reset"]:hover,
 div.button > input[type="submit"]:hover {
     transform: scale(0.8); 
+}
+
+@media screen and (min-width: 330px) and (max-width: 420px) {
+    
+    body{
+        background-color: black;
+        background-position: center;
+    }
+    
+    h1{
+        margin-top: 2px;
+        font-size: 30px;
+    }
+
+    img.One{
+        margin: 250px 0px 0px 200px;
+        width: 100px;
+    }
+
+    img.Two{
+        margin: 0px 400px 0px 0px;
+        width: 100px;
+    }
+
+    main{
+        margin: 40px auto;
+        width: 300px;
+    }
+
+    div.name-apellido > input{
+        width: 140px;
+    }
+
+    div.cedula > input{
+        width: 80%;
+    }
+
+    div.tlf > input{
+        width: 75%;    
+    }
+
+    div.button > input[type="reset"],
+    div.button > input[type="submit"]{
+        width: 130px;
+    }
 }
